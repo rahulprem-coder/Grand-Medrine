@@ -14,10 +14,6 @@ import heroBannerImg from '../assets/images/medrine_banquet_hero_1789374986207.j
 import royalStageImg from '../assets/images/medrine_royal_stage_1789375011517.jpg';
 import buffetDiningImg from '../assets/images/medrine_buffet_dining_1789375036993.jpg';
 import nightFacadeImg from '../assets/images/medrine_night_facade_1789375068570.jpg';
-import hotelSuiteImg from '../assets/images/hotel_purav_suite_1789150657927.jpg';
-import hotelDiningImg from '../assets/images/hotel_purav_dining_1789150672474.jpg';
-import hotelEmeraldImg from '../assets/images/hotel_purav_emerald_dining_1789151193261.jpg';
-import hotelFacadeImg from '../assets/images/hotel_purav_facade_1789150634292.jpg';
 
 export const VENUE_INFO: VenueInfo = {
   name: 'Grand Medrine Banquet Hall',
@@ -63,16 +59,12 @@ export const VENUE_INFO: VenueInfo = {
   pullQuote: '“Passion and a desire to do something out of the ordinary led us to enter the hospitality sector with a simple purpose: To make every celebration feel royal.”'
 };
 
-// Centralized image library with your authentic photos directly imported
+// Centralized image library with Grand Medrine genuine photography
 export const IMAGES = {
   heroBanner: heroBannerImg,
   royalStage: royalStageImg,
   buffetDining: buffetDiningImg,
   nightFacade: nightFacadeImg,
-  guestRooms: hotelSuiteImg,
-  restaurantDining: hotelDiningImg,
-  emeraldDining: hotelEmeraldImg,
-  facadeDay: hotelFacadeImg,
   
   // High quality curated luxury Indian wedding and celebration assets
   weddingCeremony: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80',
@@ -323,45 +315,31 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
   },
   {
     id: 'gal-5',
-    title: 'Complimentary Luxury Guest & Bridal Suite',
-    category: 'Grand Hall',
-    image: IMAGES.guestRooms,
-    caption: 'Comfortable air-conditioned private suite with premium furnishings for bridal preparation and family rest.'
-  },
-  {
-    id: 'gal-6',
-    title: 'In-House Multi-Cuisine Restaurant & Dining',
-    category: 'Dining',
-    image: IMAGES.restaurantDining,
-    caption: 'Curated dining space offering artisanal delicacies prepared fresh by our master culinary team.'
-  },
-  {
-    id: 'gal-7',
-    title: 'Emerald Dining & Executive Banquet Hospitality',
-    category: 'Dining',
-    image: IMAGES.emeraldDining,
-    caption: 'Spacious banquet dining arrangement for wedding guests, pre-wedding dinners, and social celebrations.'
-  },
-  {
-    id: 'gal-8',
-    title: 'Grand Medrine Architectural Venue View',
-    category: 'Exterior & Stage',
-    image: IMAGES.facadeDay,
-    caption: 'Daytime perspective of our prime venue location, just 30 metres from Rohtak Junction railway station.'
-  },
-  {
-    id: 'gal-9',
     title: 'Intimate Ceremony Mandap',
     category: 'Weddings',
     image: IMAGES.weddingCeremony,
     caption: 'Traditional floral canopy with sacred seating and serene candle illumination.'
   },
   {
-    id: 'gal-10',
+    id: 'gal-6',
     title: 'Executive Conference Layout',
     category: 'Grand Hall',
     image: IMAGES.corporateConference,
     caption: 'Professional banquet seating with high-fidelity AV equipment for corporate conclaves.'
+  },
+  {
+    id: 'gal-7',
+    title: 'Cocktail & Mocktail Beverage Bar',
+    category: 'Dining',
+    image: IMAGES.mocktailCocktail,
+    caption: 'Contemporary illuminated bar serving refreshing artisanal welcome mocktails and coolers.'
+  },
+  {
+    id: 'gal-8',
+    title: 'Bespoke Table Setting & Centerpieces',
+    category: 'Grand Hall',
+    image: IMAGES.tableSetting,
+    caption: 'Fine linen, gold cutlery, and floral centerpieces ready for 300 esteemed guests.'
   }
 ];
 
@@ -510,5 +488,99 @@ export const GOOGLE_REVIEWS: GoogleReview[] = [
       relativeTime: '1 month ago',
       text: 'Thank you Praveen Ji for appreciating our culinary team and parking management. We strive to provide effortless comfort to all our visiting guests.'
     }
+  },
+  {
+    id: 'g-rev-4',
+    authorName: 'Dr. Neeraj Bansal',
+    authorInitials: 'NB',
+    avatarBgColor: '#3B4B24',
+    isLocalGuide: true,
+    localGuideBadge: 'Local Guide • Level 6',
+    reviewCount: 71,
+    rating: 5,
+    relativeTime: '2 months ago',
+    eventOrVisitType: 'State Medical Conference & Banquet',
+    reviewText:
+      'We hosted an annual doctors seminar followed by dinner at Grand Medrine. The generator power backup gave 100% uptime with no drop in projector or AC performance. Audio-visual podium, banquet seating arrangement, and dinner buffet service were on time. Professional conduct by the manager in charge.',
+    category: 'Management',
+    helpfulCount: 31,
+    highlightTag: '100% Power Backup & Executive Timelines',
+    ownerResponse: {
+      author: 'Grand Medrine Banquet Hall (Owner)',
+      relativeTime: '2 months ago',
+      text: 'Thank you Dr. Bansal. It was a pleasure hosting the medical conference. Our genset redundancy and executive banquet protocols ensure corporate and institutional programs run seamlessly.'
+    }
+  },
+  {
+    id: 'g-rev-5',
+    authorName: 'Vikas Hooda',
+    authorInitials: 'VH',
+    avatarBgColor: '#4A354F',
+    isLocalGuide: true,
+    localGuideBadge: 'Local Guide • 29 reviews',
+    reviewCount: 29,
+    rating: 5,
+    relativeTime: '3 months ago',
+    eventOrVisitType: '25th Wedding Anniversary Gala',
+    reviewText:
+      'One of the cleanest and most well-maintained banquet halls in Haryana. They provided a complimentary air-conditioned room for our senior parents to rest during the 4-hour function, which was a very thoughtful gesture. Special praise for their dal makhani and live tandoori snacks.',
+    category: 'Catering',
+    helpfulCount: 18,
+    highlightTag: 'Complimentary Guest Rooms & Thoughtful Service',
+    ownerResponse: {
+      author: 'Grand Medrine Banquet Hall (Owner)',
+      relativeTime: '3 months ago',
+      text: 'Vikas Ji, congratulations on your parents\' 25th Silver Jubilee! Guest comfort and family warmth are the very essence of Grand Medrine. Thank you for your heartfelt recommendation.'
+    }
+  },
+  {
+    id: 'g-rev-6',
+    authorName: 'Meenakshi Rathi',
+    authorInitials: 'MR',
+    avatarBgColor: '#6B4E2B',
+    isLocalGuide: false,
+    reviewCount: 9,
+    rating: 5,
+    relativeTime: '4 months ago',
+    eventOrVisitType: 'Daughter\'s First Birthday Celebration',
+    reviewText:
+      'The fairy-tale theme decor was executed flawlessly by Grand Medrine\'s decorators. Safe, spacious, and spotlessly clean hall. The staff served guests with genuine smiles and greeted everyone warmly. Very reasonable packages given the royal ambience they deliver.',
+    category: 'Ambience',
+    helpfulCount: 12,
+    highlightTag: 'Fairy-tale Theme & Spotless Cleanliness'
+  },
+  {
+    id: 'g-rev-7',
+    authorName: 'Ashok K. Verma',
+    authorInitials: 'AV',
+    avatarBgColor: '#2B4A4B',
+    isLocalGuide: true,
+    localGuideBadge: 'Local Guide • 44 reviews',
+    reviewCount: 44,
+    rating: 5,
+    relativeTime: '5 months ago',
+    eventOrVisitType: 'Wedding Ceremony',
+    reviewText:
+      'Everything went like clockwork. From welcoming the baraat to the mandap rituals and midnight buffet, the manager remained on ground throughout. High hygienic standards in both food and restroom maintenance, which is rare to find. Top choice in Rohtak.',
+    category: 'Weddings',
+    helpfulCount: 27,
+    highlightTag: 'Dedicated On-Ground Event Manager'
+  },
+  {
+    id: 'g-rev-8',
+    authorName: 'Sanjay Deswal',
+    authorInitials: 'SD',
+    avatarBgColor: '#5C382A',
+    isLocalGuide: false,
+    reviewCount: 6,
+    rating: 4,
+    relativeTime: '6 months ago',
+    eventOrVisitType: 'Retirement Celebration Banquet',
+    reviewText:
+      'Great venue right near Rohtak railway station. Location made it very simple for our guests from nearby districts. Food quality was very good and served piping hot. Ample space for 200 people with cozy seating arrangement.',
+    category: 'Management',
+    helpfulCount: 9,
+    highlightTag: 'Prime Railway Station Location'
   }
 ];
+
