@@ -501,4 +501,14 @@ export const GOOGLE_REVIEWS: GoogleReview[] = [
     relativeTime: '1 month ago',
     eventOrVisitType: 'Pre-Wedding Sangeet Night',
     reviewText:
-      'Attended a sangeet function here last
+      'Attended a sangeet function here last month. The sound setup and DJ acoustics were fantastic with no harsh echo. Ample car parking with helpful valet staff right at the gate. The in-house restaurant kitchen churned out delicious chaat and main course dishes. Best venue near Shiela Cineplex / Rohtak Junction.',
+    category: 'Catering',
+    helpfulCount: 15,
+    highlightTag: 'Delicious Multi-Cuisine & Valet Parking',
+    ownerResponse: {
+      author: 'Grand Medrine Banquet Hall (Owner)',
+      relativeTime: '1 month ago',
+      text: 'Thank you Praveen Ji for appreciating our culinary team and parking management. We strive to provide effortless comfort to all our visiting guests.'
+    }
+  }
+];
