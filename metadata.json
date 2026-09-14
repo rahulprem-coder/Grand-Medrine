@@ -1,0 +1,6 @@
+{
+  "name": "Grand Medrine Banquet Hall",
+  "description": "Premier luxury wedding venue and banquet hall in Rohtak, Haryana. Featuring a 5,100 sq. ft. centrally air-conditioned hall, vastu-compliant architecture, 100% power backup, and capacity for up to 300 guests.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
